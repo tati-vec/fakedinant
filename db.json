@@ -1,9 +1,68 @@
 {
   "tickets": [
     {
-      "id": 1,
-      "dominio": "ABC123",
-      "base": "100"
+      "ticketNumber": 1000,
+      "plate": "ABC123",
+      "costCenter": "CC1",
+      "region": "region1",
+      "comment": "Some text",
+      "services": [
+        {
+          "code": 123,
+          "name": "Service name"
+        }
+      ],
+      "parts": [
+        {
+          "code": 1548,
+          "description": "Part desc",
+          "accountCode": "A500",
+          "accountName": "Account name",
+          "quantity": 4,
+          "price": 98.45
+        }
+      ],
+      "tasks": [
+        {
+          "code": 215,
+          "description": "Task desc",
+          "accountCode": "B200",
+          "accountName": "Account name",
+          "price": 150.00
+        }
+      ]
+    },
+    {
+      "ticketNumber": 1234,
+      "plate": "ABC111",
+      "costCenter": "CC1",
+      "region": "Subregion",
+      "comment": "Hola",
+      "services": [
+        {
+          "code": 123,
+          "name": "Service name"
+        }
+      ],
+      "parts": [
+        {
+          "code": 1500,
+          "description": "Part desc",
+          "accountCode": "A600",
+          "accountName": "Account name 2",
+          "quantity": 2,
+          "price": 42
+        }
+      ],
+      "tasks": [
+        {
+          "code": 215,
+          "description": "Task desc",
+          "accountCode": "C300",
+          "accountName": "Account name 4",
+          "price": 100.00
+        }
+      ]
     }
   ]
 }
