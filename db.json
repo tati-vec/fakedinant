@@ -1,6 +1,7 @@
 {
   "tickets": [
     {
+      "id": 1000,
       "ticketNumber": 1000,
       "plate": "ABC123",
       "costCenter": "CC1",
@@ -33,6 +34,7 @@
       ]
     },
     {
+      "id": 1234,
       "ticketNumber": 1234,
       "plate": "ABC111",
       "costCenter": "CC1",
