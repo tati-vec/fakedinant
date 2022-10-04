@@ -1,0 +1,9 @@
+{
+  "tickets": [
+    {
+      "id": 1,
+      "dominio": "ABC123",
+      "base": "100"
+    }
+  ]
+}
