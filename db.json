@@ -70,15 +70,15 @@
   "stock": [
     {
       "id": 1,
-      warehouseCode:  "1234", 
-      warehouseName: "someString", 
-      partQuantity: 15
+      "warehouseCode":  "1234", 
+      "warehouseName": "someString", 
+      "partQuantity": 15
     },
     {
       "id": 2,
-      warehouseCode:  "1234", 
-      warehouseName: "someString 2", 
-      partQuantity: 0
+      "warehouseCode":  "1234", 
+      "warehouseName": "someString 2", 
+      "partQuantity": 0
     }
   ]
 }
