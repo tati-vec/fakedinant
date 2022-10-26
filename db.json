@@ -80,5 +80,29 @@
       "warehouseName": "someString 2", 
       "partQuantity": 0
     }
+  ],
+  "solped": [
+    1235: {
+    "status": "string",
+    "parts": [
+        {
+          "code": 1548,
+          "description": "Part desc",
+          "accountCode": "A500",
+          "accountName": "Account name",
+          "quantity": 4,
+          "price": 98.45
+        }
+      ],
+      "tasks": [
+        {
+          "code": 215,
+          "description": "Task desc",
+          "accountCode": "B200",
+          "accountName": "Account name",
+          "price": 150.00
+        }  
+      ]
+    }
   ]
 }
